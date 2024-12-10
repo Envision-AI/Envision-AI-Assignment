@@ -6,6 +6,12 @@ Here in Envision we are working on making a real-time personalized assistant for
 However we are facing one particular problem with Ally. Proprietary models such as gpt-4o decline to answer image questions when there is a person in the frame due to guardrails put to preserve private information. We want you to come up with a system using this codebase to find out when there is a person in the frame and use an open source LLM model in those cases. The open source model should only trigger in the case of there being a person in the frame and it should describe the entire image including the person accurately and in good detail while keeping the latency to minimum.
 
 Evaluation will be based mostly on reliability and speed. Please provide a README file so we can easily run your code.
+success criteria:
+- Answer at least 10 image questions in the same call, without degradation in response times, with an equal split of images featuring people and those that do not.
+- The implemented model should be streamed and have Time to first Token of <500ms.
+- Ensure images are captured reliably when necessary and intended.
+- README file should be in a way that lets us run the project with as little modifications as possible.
+
 
 PS: Feel free to change the provided code if needed.
 
