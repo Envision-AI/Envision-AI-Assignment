@@ -13,7 +13,7 @@ success criteria:
 - README file should be in a way that lets us run the project with as little modifications as possible.
 
 
-PS: Feel free to change the provided code if needed.
+PS: You will need to change the provided code to get the best performance.
 
 # Setup
 
